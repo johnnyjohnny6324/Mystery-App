@@ -20,8 +20,8 @@ class AuthController extends BaseController
     $session = session();
 	// Initialize the OAuth client
     $oauthClient = new \League\OAuth2\Client\Provider\GenericProvider([
-      'clientId'                => 'oro3870p-74q7-425o-n968-66p3p16r62sr',
-        'clientSecret'            => 'texsaw{r3fre5h_yOur_crEdeNt14l5}',
+      'clientId'                => '',
+        'clientSecret'            => '',
         'redirectUri'             => 'http://localhost:8000/callback',
         'urlAuthorize'            => 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize',
         'urlAccessToken'          => 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
