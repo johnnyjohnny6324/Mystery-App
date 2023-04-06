@@ -110,5 +110,10 @@ class AuthController extends BaseController
 
   }
   
-
+  public function signout()
+  {
+    $tokenCache = new TokenCache();
+    $tokenCache->clearTokens();
+    return redirect('/');
+  }
 }
