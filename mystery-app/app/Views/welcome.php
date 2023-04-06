@@ -23,7 +23,8 @@
     <h4>Welcome <?= esc($userName)?>!</h4>
     <p>Use the navigation bar at the top of the page to get started.</p>
   
-
+  <?php else : ?>
+    <a href="/signin" class="btn btn-primary btn-large">Sign In</a>
   
   <?php endif ?>
 </div>
