@@ -37,6 +37,7 @@ $routes->get('/', 'Home::welcome');
 //$routes->match(['get', 'post'], '/callback', 'AuthController::callback');
 $routes->get('/signin', 'AuthController::signin');
 $routes->get('/callback', 'AuthController::callback');
+$routes->get('/signout', 'AuthController::signout');
 $routes->get('home', 'Home::welcome');
 
 
